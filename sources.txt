@@ -1,0 +1,11 @@
+Stahování:
+https://www.python.org/downloads/
+https://code.visualstudio.com/
+
+Online interpreter:
+https://www.online-python.com/
+
+Prezentace:
+https://marko-knoebl.github.io/slides/python-beginner-collection-en.html
+https://is.muni.cz/el/sci/podzim2020/C2184/um/prezentace/
+
