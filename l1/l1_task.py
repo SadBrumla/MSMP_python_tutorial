@@ -18,6 +18,7 @@ Nadefinujte proměnné pro moderní tříválcový motor 1.0 TSI.
 
 
 
+
 """
 ÚKOL 2: Matematika a vzorce
 Zadání:
