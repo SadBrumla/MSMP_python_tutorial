@@ -1,6 +1,5 @@
 """
-LEKCE 1 - VZOROVÉ PŘÍKLADY (PRO LEKTORA)
-Tento soubor slouží pro sdílení obrazovky a živé ukázky psaní kódu během cvičení.
+LEKCE 1 - VZOROVÉ PŘÍKLADY
 """
 
 """
@@ -10,7 +9,7 @@ Zadání:
    vrtání (79.5 mm), zdvih (95.5 mm) a přítomnost přeplňování (Pravda).
 2. Pomocí funkce type() ukažte studentům rozdíl mezi int, float, str a bool.
 """
-# (Místo pro tvůj kód na hodině)
+
 
 
 
@@ -22,7 +21,8 @@ Zadání:
 3. Vypočtěte plochu pístu a zdvihový objem celého motoru v m3.
 4. Převeďte výsledek na litry a vypište pomocí základního print().
 """
-# (Místo pro tvůj kód na hodině)
+import math
+
 
 
 
