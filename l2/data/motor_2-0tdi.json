@@ -1,0 +1,23 @@
+{
+  "nazev": "2.0 TDI CR",
+  "pocet_valcu": 4,
+  "vrtani_mm": 81.0,
+  "zdvih_mm": 95.5,
+  "preplnovany": true,
+  "palivo": "nafta",
+  "obeh": {
+    "epsilon": 18.5,
+    "alpha": 1.5,
+    "beta": 1.3,
+    "kappa": 1.4
+  },
+  "mereno_pri_otackach": [
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500,
+    4000
+  ]
+}
