@@ -1,0 +1,11 @@
+Oficiální stránka pro stažení Pythonu
+https://www.python.org/
+
+Vývojové prostředí Visual Studio Code
+https://code.visualstudio.com/
+
+Grafický klient pro GitHub repozitáře
+https://desktop.github.com/download/
+
+Záložní online prostředí bez instalace
+https://www.online-python.com/

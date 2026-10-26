@@ -1,6 +1,5 @@
 """
 LEKCE 1 - SAMOSTATNÁ CVIČENÍ A ÚKOLY
-Doplňte kód pod příslušná zadání.
 """
 
 """
@@ -14,9 +13,15 @@ Nadefinujte proměnné pro moderní tříválcový motor 1.0 TSI.
    je celočíselný typ (int) a vrtání je desetinné číslo (float).
 """
 # Sem napište kód pro Úkol 1:
+jmeno_motoru = "Super motor"
+pocet_valcu = 4
+vrtani = 74.5
+zdvih = 76.4
+print("Typ proměnné pocet_valcu:")
+print(type(pocet_valcu))
 
-
-
+print("Typ proměnné vrtani:")
+print(type(vrtani))
 
 
 """
@@ -29,11 +34,19 @@ Máme zadaný kompresní objem jednoho válce V_c = 0.000045 m3.
 3. Vypočítejte střední pístovou rychlost c_s [m/s] při otáčkách n = 4000 min-1.
    Vzorec: c_s = 2 * z * (n / 60), kde z je zdvih v metrech.
 """
+import math
+
+vrtani_m = vrtani/1000
+zdvih_m = zdvih/1000
+V_z = math.pi * vrtani_m**2 * zdvih_m
+
 V_c = 0.000045
 n_otacky = 4000
-# Sem napište kód pro Úkol 2:
+V_c_meters = V_c*1000
 
-
+# kompresní poměr
+epsilon = (V_z + V_c) / V_c
+c_s = 2* zdvih_m * (n_otacky/60)
 
 
 """
@@ -45,6 +58,8 @@ střední pístovou rychlost (zaokrouhlenou na 2 desetinná místa) z Úkolu 2.
 """
 # Sem napište kód pro Úkol 3:
 
+zprava = f"Motor {jmeno_motoru} má {pocet_valcu} válce, kompresní poměr {epsilon:.1f} a střední pístvou rychlost {c_s:.2f}"
+print(zprava)
 
 
 

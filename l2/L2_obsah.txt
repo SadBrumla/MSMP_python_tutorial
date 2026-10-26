@@ -1,0 +1,4 @@
+Matěj - Podmínky, cykly
+Matěj - Knihovny (MatPlotLib, https://pypi.org/, PIP)
+Jarda - Funkce
+Jarda - Práce se soubory
