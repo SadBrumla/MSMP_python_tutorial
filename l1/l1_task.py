@@ -13,6 +13,7 @@ Nadefinujte proměnné pro moderní tříválcový motor 1.0 TSI.
    je celočíselný typ (int) a vrtání je desetinné číslo (float).
 """
 # Sem napište kód pro Úkol 1:
+
 jmeno_motoru = "Super motor"
 pocet_valcu = 4
 vrtani = 74.5

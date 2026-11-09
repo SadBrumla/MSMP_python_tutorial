@@ -12,6 +12,7 @@ PŘÍKLAD 1: Typ přeplňování a jednoduchý if elif else
 Zadání: Kontrola typu přeplňování motoru. Vypočítej hodnoty v sání motoru 
 pokud je proměnná preplnovani nastavená na "Turbodmychadlo", "Mechanické" nebo "Bez přeplňování"
 do terminálu vypiš formátovaný text (viz 1. Lekce)
+T2 = T1 * stlaceni ** ((kappa-1)/kappa) - musí být v kelvinech
 
 BONUS:
 Otestuj, jestli tlak a teplota po následné adiabatické kompresi ve válci 
@@ -30,6 +31,12 @@ stlaceni_TD = 2.2
 stlaceni_mech = 2
 preplnovani = "Turbodmychadlo" # Zkuste změnit na "Mechanické" nebo "Bez přeplňování"
 
+if preplnovani == "Turbodmychadlo":
+    # vzorec zde
+elif # druhá podmínka zde:
+    # druhý vzorec zde
+else:
+    # vzorec když nedojde k naplnění první ani druhé podmínky
 
 
 
@@ -49,14 +56,16 @@ PŘÍKLAD 3: Výpočet účinnosti
 Zadání: Na základě zadaných kompresních poměrů a teplot nasávaného vzduchu
 (pro různé nadmořské výšky/stavy chlazení) vypočítejte pomocí vnořeného cyklu
 termodynamickou účinnost Ottova cyklu: eta = 1 - (1 / (epsilon ** (kappa - 1))).
+
 BONUS: 
 - ulož hodnoty účinností do nového seznamu pomocí funkce .append
 -přidej vnořený cyklus pro různé hodnoty kappa = [1.3 , 1.35 , 1.4]
-
 """
 # Seznam zkoumaných kompresních poměrů (epsilon)
 epsilon_hodnoty = [8, 9, 10, 11]
-kappa = 1.4
+
+for epsilon in epsilon_hodnoty:
+
 
 
 
